@@ -2,6 +2,35 @@
 Commands used with Ubuntu
 
 ## Ubuntu Server
+
+### Keyboard
+Change keyboard to spanish layout
+```
+sudo loadkeys es
+```
+This command change the layout for the actua session
+
+To change the layout for default edit the file
+```
+/etc/default/keyboard
+```
+
+### Users
+Add user
+```
+$ sudo adduser username
+```
+
+If you want the newly created user to have administrative rights
+```
+$ sudo usermod -aG sudo username
+```
+
+### Hostname
+/etc/hostname
+/etc/hosts
+
+
 ### VirtualBox
 #### Install Guest Additions CD Image
 ```
